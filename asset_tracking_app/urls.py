@@ -8,3 +8,7 @@ router.register(r'employees', EmployeeViewSet, basename='employee')
 router.register(r'devices', DeviceViewSet, basename='device')
 router.register(r'devicelogs', DeviceLogViewSet, basename='devicelog')
 
+urlpatterns = [
+    path('', include(router.urls)),
+    
+]
