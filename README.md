@@ -1,22 +1,24 @@
 
 1. Clone this repository:
    git clone https://github.com/subreto-roy/repliq.git
+
+
    cd asset_tracking_project
   
 
 
 
-2. Install project dependencies:
+3. Install project dependencies:
    pip install -r requirements.txt
 
 
 
 
-3. Apply database migrations:
+4. Apply database migrations:
    python manage.py migrate
 
 
-4. Create a superuser account:
+5. Create a superuser account:
 
 
    python manage.py createsuperuser
